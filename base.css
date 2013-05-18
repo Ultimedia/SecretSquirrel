@@ -521,7 +521,7 @@ textarea {
 /* 2.0 - Grid Layout (Responsive)
    ========================================================================== */
 /* Sections & Content Blocks */
-.section, section {
+.section, section, footer {
   position: relative;
 }
 .row {
@@ -542,6 +542,7 @@ textarea {
   margin-left: 2%;
   *margin-left: 1.7%;
   float: left;
+  position: relative;
 }
 .col:first-child {
   margin-left: 0;
